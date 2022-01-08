@@ -1,0 +1,64 @@
+nav {
+  height: 80px;
+  width: 100%;
+  top: 0vh;
+  position: sticky;
+  background-color: #212121;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 8px;
+}
+
+.card-container {
+  height: 300px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.cabecera {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/llave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.88;
+}
+
+.grid-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+.Productos {
+  width: 100%;
+  height: 60%;
+}
+
+.container {
+  text-align: center;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+/*# sourceMappingURL=main_products.css.map */

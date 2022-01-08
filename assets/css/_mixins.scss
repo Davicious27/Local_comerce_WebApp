@@ -1,0 +1,12 @@
+@mixin div ($height, $width, $box-shadow, $transition){
+    height: $height;
+    width: $width;
+    box-shadow: $box-shadow;
+    transition: $transition;
+
+}
+
+.card-container{
+    @include div(300px, 250px, 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0.3s);
+    border-radius: 4px;
+} 
