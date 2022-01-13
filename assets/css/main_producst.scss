@@ -11,6 +11,33 @@ body{
     overflow: overlay;
 }
 
+// Barra Navegacion
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: 'Open sans';
+    text-decoration: none; 
+}
+
+.menu li a:hover{
+    color: #bbbbbb;
+    transition: all 0.3s;
+}
+
+// Submenu
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
 
 .grid-cards{
 
@@ -56,7 +83,7 @@ ul{
 }
 
 .footer-col{
-    width: 25%;
+    width: 33.3%;
     padding: 0;
 }
 
