@@ -30,7 +30,7 @@
     ul{
         list-style: none;
         font-size: 17px;
-        font-family: 'Poppins', sans-serif;
+        font-family: $text-nav;
         padding-left: 5px;
     }
 
@@ -57,11 +57,59 @@
         display: block;
         padding: 15px;
         color: $primary-text;
-        font-family: 'Open sans';
+        font-family: $text-nav;
         text-decoration: none;
     }
 }
 
+
+// Footer
+
+.footer-col{
+    width: 33.3%;
+    padding: 0;
+
+    h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    h4:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+
+    ul li:not(:last-child){
+        margin-top: 10px;
+    }
+
+    ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+
+}
 
 
 

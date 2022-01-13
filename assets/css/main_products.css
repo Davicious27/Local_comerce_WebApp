@@ -48,8 +48,48 @@
   display: block;
   padding: 15px;
   color: #FFFFFF;
-  font-family: "Open sans";
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
+}
+
+.footer-col {
+  width: 33.3%;
+  padding: 0;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-top: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
 }
 
 .header-Tools h2 {
@@ -75,7 +115,7 @@
 .card-container {
   height: 300px;
   width: 250px;
-  box-shadow: 4 4px 8px 0 rgba(0, 0, 0, 0.267);
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.37);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -131,18 +171,24 @@ body {
   display: block;
   padding: 15px 20px;
   color: #ffffff;
-  font-family: "Open sans";
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
 
 .menu li a:hover {
   color: #bbbbbb;
   transition: all 0.3s;
+  background-color: #2d2f337c;
+  border-radius: 30px;
 }
 
 .menu li:hover .submenu {
   visibility: visible;
   opacity: 1;
+}
+
+.space-cards {
+  height: 400px;
 }
 
 .grid-cards {
@@ -152,6 +198,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .Productos {
@@ -183,51 +230,6 @@ ul {
   background-color: #24262b;
   padding: 70px o;
   font-family: "Poppins", sans-serif;
-}
-
-.footer-col {
-  width: 33.3%;
-  padding: 0;
-}
-
-.footer-col h4 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  font-weight: 500;
-  position: relative;
-}
-
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-
-.footer-col ul li:not(:last-child) {
-  margin-top: 10px;
-}
-
-.footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #bbbbbb;
-  display: block;
-  transition: all 0.3s ease;
-}
-
-.footer-col ul li a:hover {
-  color: #ffffff;
-  padding-left: 8px;
 }
 
 .footer-col .social-links a {
