@@ -115,12 +115,13 @@
 .card-container {
   height: 300px;
   width: 270px;
-  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.37);
-  transition: 0.3s;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.418);
+  background-color: white;
+  border-radius: 5px;
 }
 
 .header-Tools {
-  width: 100;
+  width: 100%;
   height: 200px;
   display: flex;
   align-items: center;
@@ -192,17 +193,16 @@ body {
 
 .grid-cards {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding: 50px 30px 30px 30px;
 }
 
 .Productos {
   width: 100%;
   height: 60%;
+  border-radius: 5px 5px 0 0;
 }
 
 .container {
@@ -249,7 +249,31 @@ ul {
   background-color: #ffffff;
 }
 
-@media (max-width: 574px) {
+@media (min-width: 300px) and (max-width: 760px) {
+  .navegacion {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo {
+    margin-top: 15px;
+  }
+
+  .space-cards {
+    height: auto;
+    width: auto;
+  }
+
+  .grid-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-container {
+    margin-bottom: 20px;
+  }
+
   .footer-col {
     width: 100%;
   }

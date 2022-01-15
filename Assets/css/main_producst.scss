@@ -49,17 +49,16 @@ body{
 
 .grid-cards{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 50px 30px 30px 30px;
 }
 
 .Productos{
     width: 100%;
     height: 60%;
+    border-radius: 5px 5px 0 0;
 }
 
 .container{
@@ -82,12 +81,13 @@ ul{
     list-style: none;
 }
 
+
 // Footer
 
 .footer{
     background-color: #24262b;
     padding: 70px o;
-    font-family: 'Poppins', sans-serif;
+    font-family: $text-nav;
 }
 
 .footer-col .social-links a{
@@ -110,10 +110,42 @@ ul{
 
 // Responsive
 
-// footer
+//Flex Grid
 
-@media(max-width: 574px){
+@media (min-width: 300px) and (max-width: 760px) {
+
+    .navegacion{
+        display: flex;
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .logo{
+        margin-top: 15px;
+    }
+
+    .space-cards{
+        height: auto;
+        width: auto;
+    }
+    .grid-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container{
+        margin-bottom: 20px;
+    }
+
     .footer-col{
         width: 100%;
     }
 }
+
+// footer
+
+// @media(max-width: 574px){
+//     .footer-col{
+//         width: 100%;
+//     }
+// }
+// }
