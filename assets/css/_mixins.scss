@@ -15,8 +15,7 @@
 }
 
 .card-container{
-    @include div(300px, 250px, 4px 4px 8px 0 rgba(0, 0, 0, 0.37), 0.3s);
-    border-radius: 4px;
+    @include div(300px, 270px, 4px 4px 8px 0 rgba(0, 0, 0, 0.37), 0.3s);
 }
 
 .header-Tools{
